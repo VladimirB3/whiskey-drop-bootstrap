@@ -15,6 +15,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+
 }
 
 .quotes-container {}
@@ -33,6 +45,10 @@ body {
 
 .block-divider--orange {
     background-color: #b74602;
+}
+
+.block-divider--short {
+    width: 35px;
 }
 
 /* Jumbotron */
@@ -56,4 +72,11 @@ body {
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 27px;
 }
