@@ -29,7 +29,10 @@ body {
         width: 75px;
         height: 5px;
         border: 0;
-        background-color: #b74602;;
+}
+
+.block-divider--orange {
+    background-color: #b74602;
 }
 
 /* Jumbotron */
