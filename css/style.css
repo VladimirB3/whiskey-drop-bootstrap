@@ -78,5 +78,21 @@ body {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 27px;
+    border-radius: 28px;
+    width: 160px;
 }
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: black;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus, {
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
