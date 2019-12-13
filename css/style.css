@@ -84,14 +84,14 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
+    background-color: #b74602;
     border-color: black;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus, {
+.btn--red:hover, 
+.btn--red:active, 
+.btn--red:focus, 
+.btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
 }
